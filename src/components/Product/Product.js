@@ -1,9 +1,8 @@
 const Product = ({ title, description }) => {
   return (
     <ul>
-      {" "}
       <li>{title}</li>
-      <li>{description}</li>{" "}
+      <li>{description}</li>
     </ul>
   );
 };
