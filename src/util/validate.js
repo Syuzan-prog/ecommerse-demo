@@ -1,13 +1,12 @@
-export const validate = val =>{
-    console.log(val)
-    if(val.length === 4){
-        return {
-            errorText:'fill in',
-            isValid: true
-        }
+export const validate = ( val  =>{
+  
+    let errorTxt = "";
+    if (val.length <= 5) {
+        errorTxt = "minimmum letters is 6";
+    } else {
+        errorTxt = "It's okay";
     }
-    return{
-        errorText:'',
-        isValid: false
-    }
-}
+    return errorTxt;
+
+
+})
