@@ -1,6 +1,5 @@
 import Form from "./containers/Form/Form";
-import './App.css';
-
+import "./App.css";
 
 function App() {
   return (
