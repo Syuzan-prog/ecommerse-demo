@@ -1,5 +1,4 @@
 const Input = ({ type, value, placeholder, onChange }) => {
-  console.log(placeholder);
   return (
     <div>
       <input
